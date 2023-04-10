@@ -59,7 +59,7 @@ const Navbar = () => {
 								<NavLinks onClick={() => closeMobileMenu(el.to, el.id)}>
 									{el.text}
 								</NavLinks>
-							</NavItem>
+							</NavItem>   
 						))}
 					</NavMenu>
 				</NavbarContainer>
@@ -67,5 +67,6 @@ const Navbar = () => {
 		</IconContext.Provider>
 	);
 };
+
 
 export default Navbar;

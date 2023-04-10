@@ -2,9 +2,7 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 export const FormSection = styled.div`
-	/* color: #fff; */
 	padding: 160px 0;
-	/* background: ${({ inverse }) => (inverse ? '#101522' : '#fff')}; */
 	background: #101522;
 `;
 
@@ -19,11 +17,9 @@ export const FormContainer = styled.div`
 	display: flex;
 `;
 export const FormColumn = styled.div`
-	/* margin-bottom: 15px; */
 	padding: 50px;
 	background: white;
 	border: 20px;
-	/* padding: ${({ small }) => (small ? '0 50px' : '0 15px')}; */
 	flex: 1;
 	max-width: 60%;
 	display: flex;
@@ -52,7 +48,6 @@ export const FormRow = styled.div`
 `;
 
 export const FormWrapper = styled.form`
-	/* max-width: 540px; */
 	padding-top: 0;
 	width: 100%;
 `;
@@ -114,7 +109,6 @@ export const FormButton = styled.button`
 	background: none;
 	margin-top: 1.5rem;
 	white-space: nowrap;
-	/* color: #fff; */
 	outline: none;
 	width: 100%;
 	font-size: 1.4rem;

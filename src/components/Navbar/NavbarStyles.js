@@ -7,7 +7,7 @@ export const Nav = styled.nav`
 	margin-bottom: -80px;
 	height: 80px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	font-size: 1.2rem;
 	position: absolute;
